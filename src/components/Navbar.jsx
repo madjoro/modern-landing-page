@@ -27,6 +27,24 @@ const Navbar = () => {
           className="w-[28px] h-[28px] object-contain"
           onClick={() => settoggleNav((prev) => !prev)}
         />
+        <div
+          className={`${
+            toggleNav ? "flex" : "hidden"
+          } p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}
+        >
+          <ul className="list-none flex flex-col justify-end items-center flex-1">
+            {navLinks.map((link, i) => (
+              <li
+                key={link.id}
+                className={`font-poppins font-normal cursor-pointer text-[16px] text-white ${
+                  i === navLinks.length - 1 ? "mb-0" : "mb-4"
+                }`}
+              >
+                <a href={`#${link.id}`}>{link.title}</a>
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
     </nav>
   );
