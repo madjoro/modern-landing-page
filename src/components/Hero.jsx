@@ -1,5 +1,6 @@
 import styles from "../style";
 import { discount, robot } from "../assets";
+import GetStarted from "./GetStarted";
 
 const Hero = () => {
   return (
@@ -16,9 +17,20 @@ const Hero = () => {
         bg-discount-gradient rounded-[10px] mb-2"
         >
           <img src={discount} alt="discount" className="w-[32] h-[32]" />
-          <span className="text-white">20%</span>
-          Discount For <span className="text-white">1 Month</span>
-          Account
+          <p className={`${styles.paragraph} ml-2`}>
+            <span className="text-white">20%</span>
+            Discount For <span className="text-white">1 Month</span>
+            Account
+          </p>
+        </div>
+        <div className="flex flex-row justify-between items-center w-full">
+          <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px]">
+            The Next <br className="sm:block hidden" />{" "}
+            <span className="text-gradient">Generation</span> Payment Method.
+          </h1>
+          <div className="ss:flex hidden md:mr-4 mr-0">
+            <GetStarted />
+          </div>
         </div>
       </div>
     </section>
