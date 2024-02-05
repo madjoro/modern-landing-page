@@ -138,3 +138,32 @@
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
 }
+
+.animated__gradient {
+  background: linear-gradient(
+    to right,
+    #a855f7,
+    #ec4899,
+    #eab308,
+    #ec4899,
+    #a855f7,
+    #ec4899,
+    #eab308
+  );
+  background-size: 300% 300%;
+  background-clip: text;
+}
+
+.reuse__gradient {
+  background: linear-gradient(
+    to right,
+    #a855f7,
+    #ec4899,
+    #eab308,
+    #ec4899,
+    #a855f7,
+    #ec4899,
+    #eab308
+  );
+  background-size: 300% 300%;
+}
