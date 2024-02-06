@@ -4,7 +4,8 @@ import { footerLinks, socialMedia } from "../constants";
 
 const Footer = () => {
   return (
-    <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
+    <section
+      className={`${styles.flexCenter} ${styles.paddingY} flex-col border-t-[1px] border-t-slate-400`}>
       <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
         <div className="flex-1 flex flex-col justify-center m-1">
           <img
@@ -12,7 +13,7 @@ const Footer = () => {
             alt="logo"
             className="w-[266px] h-[72px] object-contain"
           />
-          <p className={`${styles.paragraph} mt-4 max-w-[310px] m-auto`}>
+          <p className={`${styles.paragraph} mt-4 max-w-[310px]`}>
             A new way to pay.
           </p>
         </div>
