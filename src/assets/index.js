@@ -2,6 +2,7 @@ import bill from "./bill.png";
 import binance from "./binance.png";
 import card from "./card.png";
 import coinbase from "./coinbase.png";
+import kraken from "./kraken.png";
 import logo from "./logo.svg";
 import quotes from "./quotes.svg";
 import eth_comp from "./ether_comp.png";
@@ -23,6 +24,7 @@ import people03 from "./people03.png";
 export {
   bill,
   binance,
+  kraken,
   card,
   coinbase,
   logo,
