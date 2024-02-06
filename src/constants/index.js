@@ -6,10 +6,9 @@ import {
   instagram,
   linkedin,
   twitter,
-  airbnb,
   binance,
   coinbase,
-  dropbox,
+  kraken,
   send,
   shield,
   star,
@@ -89,7 +88,7 @@ export const stats = [
   {
     id: "stats-1",
     title: "Active Users",
-    value: "9000+",
+    value: "99999+",
   },
   {
     id: "stats-2",
@@ -99,7 +98,7 @@ export const stats = [
   {
     id: "stats-3",
     title: "Transactions",
-    value: "$100M+",
+    value: "$500M+",
   },
 ];
 
@@ -109,23 +108,23 @@ export const footerLinks = [
     links: [
       {
         name: "Content",
-        link: "https://www.hoobank.com/content/",
+        link: "https://ethereum.org/",
       },
       {
         name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
+        link: "https://ethereum.org/",
       },
       {
         name: "Create",
-        link: "https://www.hoobank.com/create/",
+        link: "https://ethereum.org/",
       },
       {
         name: "Explore",
-        link: "https://www.hoobank.com/explore/",
+        link: "https://ethereum.org/",
       },
       {
         name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
+        link: "https://ethereum.org/",
       },
     ],
   },
@@ -134,23 +133,23 @@ export const footerLinks = [
     links: [
       {
         name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
+        link: "https://ethereum.org/",
       },
       {
         name: "Partners",
-        link: "https://www.hoobank.com/partners/",
+        link: "https://ethereum.org/",
       },
       {
         name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
+        link: "https://ethereum.org/",
       },
       {
         name: "Blog",
-        link: "https://www.hoobank.com/blog/",
+        link: "https://ethereum.org/",
       },
       {
         name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
+        link: "https://ethereum.org/",
       },
     ],
   },
@@ -159,11 +158,11 @@ export const footerLinks = [
     links: [
       {
         name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
+        link: "https://ethereum.org/",
       },
       {
         name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
+        link: "https://ethereum.org/",
       },
     ],
   },
@@ -195,7 +194,7 @@ export const socialMedia = [
 export const clients = [
   {
     id: "client-1",
-    logo: airbnb,
+    logo: kraken,
   },
   {
     id: "client-2",
@@ -204,9 +203,5 @@ export const clients = [
   {
     id: "client-3",
     logo: coinbase,
-  },
-  {
-    id: "client-4",
-    logo: dropbox,
   },
 ];
