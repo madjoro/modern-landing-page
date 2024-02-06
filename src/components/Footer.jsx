@@ -21,7 +21,7 @@ const Footer = () => {
             <div
               key={link.key}
               className="flex flex-col ss:my-0 my-4 min-w-[150px]">
-              <h4 className="font-poppins font-medium text-[18px] leading-[27px]">
+              <h4 className="font-poppins font-medium text-[18px] leading-[27px] text-white">
                 {link.title}
               </h4>
               <ul>
@@ -36,6 +36,20 @@ const Footer = () => {
                 ))}
               </ul>
             </div>
+          ))}
+        </div>
+      </div>
+      <div className="w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-slate-400">
+        <p className="font-poppins font-normal text-center text-[14px] leading-[20px] text-white">
+          2024 Ethereum. No Rights Reserved.
+        </p>
+        <div className="flex flex-row md:mt-0 mt-6 ">
+          {socialMedia.map((soc, i) => (
+            <img
+              key={soc.id}
+              src={soc.icon}
+              alt="icon"
+              className={`w-[21px] h-[21px] object-contain mr-3`}></img>
           ))}
         </div>
       </div>
