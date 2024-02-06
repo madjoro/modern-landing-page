@@ -7,7 +7,6 @@ import {
   Billing,
   CardDeal,
   Testimonials,
-  Clients,
   Footer,
 } from "./components";
 
@@ -33,8 +32,6 @@ const App = () => {
           <Billing />
           <CardDeal />
           <Testimonials />
-          <Clients />
-          <hr className="rounded-full bg-animated__gradient" />
           <Footer />
         </div>
       </div>

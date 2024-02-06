@@ -9,7 +9,7 @@ const Testimonials = () => (
     <div className="absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full pink__gradient bottom-40" />
 
     <div className="w-full flex justify-between items-center md:flex-row flex-col sm:mb-6 mb-2 relative z-[1]">
-      <h2 className={styles.heading2}>What People are saying about us</h2>
+      <h2 className={styles.heading2}>What people are saying about us:</h2>
       <div className="w-full md:mt-0 mt-2"></div>
     </div>
 

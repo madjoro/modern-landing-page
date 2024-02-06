@@ -25,7 +25,7 @@ const Footer = () => {
                 {link.title}
               </h4>
               <ul>
-                {link.links.map((fl, i) => (
+                {link.links.map((fl) => (
                   <li
                     key={fl.name}
                     className={`font-poppins font-normal text-[16px] 
@@ -44,7 +44,7 @@ const Footer = () => {
           2024 Ethereum. No Rights Reserved.
         </p>
         <div className="flex flex-row md:mt-0 mt-6 ">
-          {socialMedia.map((soc, i) => (
+          {socialMedia.map((soc) => (
             <img
               key={soc.id}
               src={soc.icon}

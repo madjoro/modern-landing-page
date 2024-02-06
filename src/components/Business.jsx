@@ -34,13 +34,12 @@ const Business = () => {
       id="features"
       className={layout.section}>
       <div className={layout.sectionInfo}>
-        <h2 className={styles.heading2}>
-          You do the business, <br className="sm:block hidden" /> we will handle
-          the money.
-        </h2>
+        <h2 className={styles.heading2}>An open internet.</h2>
         <p className={`${styles.paragraph} max-w-[470px]`}>
-          With the right partner, you can improve your financial life by
-          building credit, earning rewards and saving money.
+          {`Today, we gain access to 'free' internet services by giving up control
+          of our personal data. Ethereum services are open by default – you just
+          need a wallet. These are free and easy to set up, controlled by you,
+          and work without any personal info.`}
         </p>
         <Button styles="mt-10"></Button>
       </div>

@@ -16,8 +16,8 @@ const Hero = () => {
             className="w-[32px] h-[32px]"
           />
           <p className={`${styles.paragraph} ml-2`}>
-            <span className="text-white">20%</span> Discount For{" "}
-            <span className="text-white">1 Month</span> Account
+            <span className="text-white">ETH</span> is now{" "}
+            <span className="text-white">Proof-Of-Stake</span>
           </p>
         </div>
 
@@ -37,9 +37,10 @@ const Hero = () => {
           Payment Method.
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Our team of experts uses a methodology to identify the credit cards
-          most likely to fit your needs. We examine annual percentage rates,
-          annual fees.
+          {`Ethereum is a technology that's home to digital money, global
+          payments, and applications. The community has built a booming digital
+          economy and so much more. It's open to everyone, wherever you are in
+          the world – all you need is the internet.`}
         </p>
       </div>
 

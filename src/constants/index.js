@@ -38,43 +38,40 @@ export const features = [
     id: "feature-1",
     icon: star,
     title: "Rewards",
-    content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+    content: "Earn rewards and protect the network by staking your ETH.",
   },
   {
     id: "feature-2",
     icon: shield,
     title: "100% Secured",
-    content:
-      "We take proactive steps make sure your information and transactions are secure.",
+    content: "Ethereum is 100% decentralized and run on the blockchain.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
-    content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+    title: "Transfer",
+    content: "Transfer funds within seconds to anyone, anywhere, anytime.",
   },
 ];
 
 export const feedback = [
   {
     id: "feedback-1",
-    content: "Once you take yourself too seriously the art will suffer.",
+    content: `"Once you take yourself too seriously the art will suffer."`,
     name: "Maynard James Keenan",
     title: "Singer, Tool",
     img: people01,
   },
   {
     id: "feedback-2",
-    content: "Currency, Carry me, Everyone is held hostage",
+    content: `"Currency, Carry me, Everyone is held hostage."`,
     name: "Alex Maas",
     title: "Singer, The Black Angels",
     img: people02,
   },
   {
     id: "feedback-3",
-    content: "He who controls the spice controls the universe.",
+    content: `"He who controls the spice controls the universe."`,
     name: "Frank Herbert",
     title: "Writer",
     img: people03,
