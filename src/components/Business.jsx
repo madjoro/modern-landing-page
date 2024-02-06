@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { features } from "../constants";
 import styles, { layout } from "../style";
 import Button from "./Button";
